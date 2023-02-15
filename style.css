@@ -29,8 +29,22 @@ nav {
     margin-top: 50px;
 }
 
+/* main */
+#architects {
+    display: flex;
+    align-items: center;
+    padding: 80px 150px;
+}
 
+#architects-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
 
+#architects-texts {
+    margin-left: 50px;
+}
 
 
 
@@ -76,4 +90,23 @@ button {
         margin-top: 30px;
     }
 
+    #banner-texts {
+        padding: 20px;
+    }
+
+    #architects {
+        flex-direction: column-reverse;
+        padding: 10px;
+    }
+
+    #architects-image{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+    }
+
+    #architects-texts {
+        margin-left: 0;
+        padding: 20px;
+    }
+    
 }
