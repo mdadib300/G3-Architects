@@ -293,4 +293,46 @@ h3 {
         right: 0px;
         margin: 20px 0;
     }
+
+    #facts-section {
+        margin-bottom: 30px;
+    }
+
+    #fact-text {
+        margin: 20px;
+    }
+
+    #facts {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+        padding: 10px;
+    }
+
+    #sponsors-images {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+
+    #sponsors-images img {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+
+    #entrepreneur-div {
+        padding: 20px;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #entrepreneur-div img {
+        width: 80%;
+    }
+    
+    #entrepreneur-texts {
+        margin-left: 0;
+    }
 }
