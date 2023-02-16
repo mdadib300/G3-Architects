@@ -1,6 +1,6 @@
 /* body */
 body {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     max-width: 1440px;
     margin: auto;
 }
@@ -44,6 +44,31 @@ nav {
 
 #architects-texts {
     margin-left: 50px;
+}
+
+#features {
+    display: flex;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+#features-heading {
+    border-left: 5px solid #FF900E;
+    padding-left: 10px;
+}
+
+.features-div {
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#experience {
+    background-color: #FF900E;
+    border-radius: 5px;
+    padding: 35px;
+    width: 342px;
 }
 
 
