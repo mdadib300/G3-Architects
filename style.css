@@ -142,6 +142,17 @@ nav {
     font-weight: 700;
 }
 
+footer {
+    margin: 100px;
+}
+
+footer p {
+    text-align: center;
+    padding: 30px 100px;
+    background-color: #FF900E;
+    color: white;
+}
+
 
 
 
