@@ -48,7 +48,6 @@ nav {
 
 #features {
     display: flex;
-    align-items: center;
     padding: 20px 100px;
 }
 
@@ -57,9 +56,22 @@ nav {
     padding-left: 10px;
 }
 
+#features-texts {
+    margin-right: 100px;
+    width: 50%;
+}
+
+#features-image{
+    width: 50%;
+}
+
+#features-image img {
+    width: 100%;
+}
+
 .features-div {
     padding: 20px;
-    border: 1px solid black;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
     border-radius: 8px;
     margin-bottom: 20px;
 }
@@ -69,6 +81,9 @@ nav {
     border-radius: 5px;
     padding: 35px;
     width: 342px;
+    position: relative;
+    bottom: 130px;
+    right: 50px;
 }
 
 
